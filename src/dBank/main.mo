@@ -4,9 +4,9 @@ import Float "mo:base/Float";
 
 actor Dbank {
   stable var currenntValue: Float = 300;
-  // currenntValue := 300;
+  currenntValue := 300;
   stable var startTime = Time.now();
-  // startTime:= Time.now();
+  startTime:= Time.now();
 
   let id = 34567892010;
 
